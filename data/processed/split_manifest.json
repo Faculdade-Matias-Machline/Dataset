@@ -1,0 +1,36 @@
+{
+  "protocol": "NightEyes V0.1 §8",
+  "seed": 20261121,
+  "method": "deterministic sha256(seed:participant_id) group split",
+  "ratios": {
+    "TRAIN": 70,
+    "VALIDATION": 15,
+    "TEST": 15
+  },
+  "generated_at": "2026-11-22T04:49:42+00:00",
+  "test_locked": true,
+  "test_lock_note": "TEST must not be used for calibration until final evaluation.",
+  "splits": {
+    "TRAIN": {
+      "path": "data/processed/train.csv",
+      "frames": 1004,
+      "participants": 338,
+      "sha256": "64b27ee194fa465818ecdb97ab2d49b6107e87d4a383d2840efc9488d6f37fac"
+    },
+    "VALIDATION": {
+      "path": "data/processed/validation.csv",
+      "frames": 220,
+      "participants": 79,
+      "sha256": "7108b73feba2d171f2238eb1208fe21f3a624ffbb187c6c009e50016df467d9d"
+    },
+    "TEST": {
+      "path": "data/processed/test.csv",
+      "frames": 243,
+      "participants": 67,
+      "sha256": "86552585a891187ec68d09f45a0229ee6db848071001e7394e1980774d2bff11"
+    }
+  },
+  "participants_total": 484,
+  "frames_total": 1467,
+  "disjoint_by_participant": true
+}
